@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Wrapper from '../assets/wrappers/Dashboard';
 import { SmallSidebar, BigSidebar, Navbar } from '../components';
-import { useContext, useState } from 'react';
+import { useContext, useState, createContext } from 'react';
 
 // eslint-disable-next-line no-undef
 const DashboardContext = createContext();
